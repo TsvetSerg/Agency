@@ -1,0 +1,10 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/font/epilogue.css');
+
+
+body {
+  margin: 0;
+  font-family: 'Epilogue', 'Arial', sans-serif;
+  font-weight: 400;
+  background-color: #fdf0e9;
+}
