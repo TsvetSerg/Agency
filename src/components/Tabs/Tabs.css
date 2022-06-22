@@ -1,0 +1,30 @@
+.tabs {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 84px;
+  margin-bottom: 75px;
+}
+
+.tabs__item {
+  margin: 0;
+  padding: 0;
+  margin-right: 62px;
+  color: #391400;
+  opacity: 64%;
+  cursor: pointer;
+}
+
+.tabs__item:last-child {
+  margin-right: 0;
+}
+
+.tabs__item:hover {
+  opacity: 100%;
+  color: #16cd53;
+}
+
+.tabs__item_activ {
+  color: #16cd53;
+}

@@ -1,0 +1,31 @@
+.content {
+  width: calc(100% - 135px * 2);
+  margin: 0 auto;
+}
+
+.content__list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 30px 32px;
+  margin-bottom: 80px;
+}
+
+.content__button {
+  margin-bottom: 200px;
+  box-shadow: 0px 3px 10px 10px rgba(57, 20, 0, 0.08);
+  width: 170px;
+  height: 48px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.content__button:hover {
+  box-shadow: 0px 3px 10px 10px rgba(57, 20, 0, 0.13);
+}
